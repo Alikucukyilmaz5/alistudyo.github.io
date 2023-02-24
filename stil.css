@@ -1,0 +1,64 @@
+*{padding: 0;
+margin: 0;
+font-family: sans-serif;}
+
+.container{height: 100vh;
+width: 100%;
+background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(res/laptop-g4e9a79f77_1920.jpg);
+background-position: center;
+background-size: cover ;}
+
+nav{display: flex;
+width: 90%;
+margin: auto;
+padding: 32px 0;
+align-items: center;
+justify-content: space-between;}
+
+.logo{cursor: pointer;
+border-radius: 50%;
+width: 100px;
+height: 100px;}
+
+nav ul li{list-style-type: none;
+display: inline-block;
+margin: 0 25px;}
+
+nav ul li a{text-decoration: none;
+color: #fff;
+font-family: "Times New Roman", Times, serif}
+
+nav ul li a:hover{color: rgb(105, 79, 161);
+transition: 1s;}
+
+.connet{width: 100%;
+position: absolute;
+top: 40%;
+color: white;
+text-align: center;}
+
+.connet h1{font-size: 65px;
+    font-family: "Times New Roman", Times, serif}
+
+.connet p{margin: 25px auto;
+font-size: 25px;
+font-family: "Times New Roman", Times, serif}
+
+button{width: 200px;
+padding: 15px 0;
+border-radius: 35px;
+margin: 20px;
+text-align: center;
+color: white;
+cursor: pointer;
+font-weight:600 ;
+background-color: rgba(40, 2, 110, 0.733);
+font-size: 17px;}
+
+button a{text-decoration: none;
+color: white;
+font-size: 23px;
+font-family: "Times New Roman", Times, serif}
+
+button a:hover{color: black;
+transition: 1s;}
